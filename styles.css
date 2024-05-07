@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b6f6ff; /* Coral */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold */
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5px 0; /* Se redujo el padding para hacerlo menos prominente */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 15px; /* Se redujo el tamaño de la fuente */
+}
+/* Estilos para el formulario de reservas */
+#reservas {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#reservas h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#reservas p {
+    font-size: 18px;
+    color: #666;
+}
+
+#reservas form {
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reservas form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#reservas form input[type="text"],
+#reservas form input[type="email"],
+#reservas form input[type="tel"],
+#reservas form input[type="date"],
+#reservas form input[type="time"],
+#reservas form input[type="number"],
+#reservas form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#reservas form textarea {
+    height: 100px;
+}
+
+#reservas form button {
+    background-color: #ff6347; /* Coral */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#reservas form button:hover {
+    background-color: #ff7f50; /* Lighter Coral */
+}

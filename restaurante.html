@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Mexicanas</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        /* Estilos adicionales para ajustar el tamaño del iframe */
+        iframe {
+            width: 100%;
+            height: 800px; /* Ajusta la altura según sea necesario */
+            border: none; /* Elimina el borde del iframe */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicias Mexicanas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#reservas">Reservaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenido a Delicias Mexicanas</h2>
+        <p>¡Disfruta de la auténtica comida mexicana en nuestro restaurante!</p>
+    </section>
+    
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <!-- Aquí agregarás los platos del menú -->
+    </section>
+    
+    <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <!-- Aquí agregarás un mapa o la dirección del restaurante -->
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <!-- Aquí agregarás información de contacto como teléfono, email y redes sociales -->
+    </section>
+    
+    <section id="reservas">
+        <h2>Reservaciones</h2>
+        <p>Por favor, completa el siguiente formulario para hacer una reserva:</p>
+        <!-- Incrusta el formulario de Google Forms aquí -->
+
+        
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffk9BiCkaPDIcyN2Nl-XrGR55_2QtShajgMAhTFt_BqTGrmw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Delicias Mexicanas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
